@@ -16,9 +16,11 @@
     <!-- cabeçalho do site -->
     <header>
         <div class="cabecalho">
+          <a href="index.html">
             <div class="logo">
-                <h1>Otávio <span>Augusto</span></h1>
+              <h1>Otávio <span>Augusto</span></h1>
             </div>
+          </a>
             <nav class="menu-desk">
                 <ul>
                     <li><a href="#repositorio">Repositórios</a></li>
@@ -37,18 +39,20 @@
                       <figure class="fundo">
                           <h1 class="cont">Fundo</h1>
                           <div class="foto_pessoal">
-                              <img src="assets/imagens/imagemTubaroes.png" alt="imagem pessoal" width="330px">
+                              <!-- <img src="assets/img/imagemTubaroes.png" alt="imagem pessoal" width="330px"> -->
+                              <div id="imageGit"></div>
                           </div>
                       </figure>
                   </div>
                   <div class="txt-apresentacao">
                       <div class="titulo">
-                          <h1>Otávio Augusto<span> Magalhães</span>!</h1>
+                          <!-- <h1>Otávio Augusto<span> Magalhães</span>!</h1> -->
+                          <div id="nomeGitHub"></div>
                       </div>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
                         into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
-                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br><br> <b>Localização:</b> Belo Horizonte. <br><b>Site:</b>https://pucminas.br</p>
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br><br> <b>Localização:</b> Belo Horizonte. <br><b>Site: </b>https://pucminas.br</p>
                       <div class="btn-redes-sociais">
                               <button>
                                   <i class="bi bi-instagram"></i>
@@ -73,61 +77,24 @@
           <h2>Repositórios</h2>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="assets/imagens/Design-sem-nome-1-21.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <!-- <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="assets/imagens/como-montar-pc-gamer.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+            </div> -->
+          </div>
+          <div class="col-sm-6">
+            <!-- <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="assets/imagens/pc-gamer.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="assets/imagens/como-montar-um-pc-gamer-2020.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="assets/imagens/como-montar-um-pc-gamer-2020.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="assets/imagens/como-montar-um-pc-gamer-2020.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -148,19 +115,19 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="assets/imagens/carrossel.png" class="d-block w-600" alt="...">
+                  <img src="assets/img/carrossel.png" class="d-block w-600" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/imagens/carrossel2.png" class="d-block w-500" alt="...">
+                  <img src="assets/img/carrossel2.png" class="d-block w-500" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/imagens/carrossel4.png" class="d-block w-400" alt="...">
+                  <img src="assets/img/carrossel4.png" class="d-block w-400" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/imagens/carrossel3.png" class="d-block w-300" alt="...">
+                  <img src="assets/img/carrossel3.png" class="d-block w-300" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/imagens/carrossel5.png" class="d-block w-300" alt="...">
+                  <img src="assets/img/carrossel5.png" class="d-block w-300" alt="...">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -185,25 +152,25 @@
             <div class="row">
               <div class="col">
                 <div class="imagem">
-                  <img id="colega_1" src="assets/imagens/col1.png" alt="colega 1">
+                  <img id="colega_1" src="assets/img/col1.png" alt="colega 1">
                 </div>
                 <div class="item">Enzo</div>
               </div>
               <div class="col">
                 <div class="imagem">
-                  <img id="colega_2" src="assets/imagens/col2.png" alt="colega 2">
+                  <img id="colega_2" src="assets/img/col2.png" alt="colega 2">
                 </div>
                 <div class="item">Pedro</div>
               </div>
               <div class="col">
                 <div class="imagem">
-                  <img id="colega_3" src="assets/imagens/col3.png" alt="colega 3">
+                  <img id="colega_3" src="assets/img/col3.png" alt="colega 3">
                 </div>
                 <div class="item">Nunes</div>
               </div>
               <div class="col">
                 <div class="imagem">
-                  <img id="colega_4" src="assets/imagens/col4.png" alt="colega 4">
+                  <img id="colega_4" src="assets/img/col4.png" alt="colega 4">
                 </div>
                 <div class="item">Simão</div>
               </div>
@@ -212,5 +179,13 @@
         </div>
       </section>
     </main>
+
+    <footer>
+        <h3>Trabalho Prático</h3>
+        <p>Feito por: <h2>Otávio <span>Magalhães</span></h2></p>
+        <h3>Puc Minas - <span>Coração Eucaristco</span></h3>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

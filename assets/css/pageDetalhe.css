@@ -1,3 +1,12 @@
+:root{
+    --azul-claro: #E3FEF7;
+    --azul-medio: #77B0AA;
+    --azul: #135D66;
+    --azul-escuro: #003C43;
+    --cor-fundo: #ffffff;
+    --cor-letra: #161616;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -90,4 +99,35 @@ header nav ul li{
 
 header .btn-cliente .bi{
     color: var(--azul);
+}
+
+
+/* .. */
+/* .. */
+/* .. */
+/* ROPOSITORIO DO SITE */
+section.repositorio_perfil{
+    padding: 20px 4%;
+    margin-top: 40px;
+    
+}
+
+.titulo h2{
+    display: flex;
+    box-shadow: 0px 0 0px 0.5px var(--azul-claro);
+}
+
+.container .link-acesso p a{
+    color: #77B0AA;
+}
+
+
+.topicos .btn-topicos button{
+    width: 120px;
+    border: none;
+    background-color: var(--azul-medio);
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
 }

@@ -25,6 +25,13 @@ body{
     height: 100vh;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azul-claro);
+}
+
 .flex{
     display: flex;
 }
@@ -141,7 +148,7 @@ section.apresentation .flex{
 .apresentation .imagem-topo .fundo{
     border: 0px;
     width: 500px;
-    height: 507px;
+    height: 438px;
     background: var(--azul-claro);
     /* position: absolute; */
     z-index: 0;
@@ -164,7 +171,8 @@ section.apresentation .flex{
 
 .imagem-topo figure.fundo .foto_pessoal img{
     margin-left: 75px;
-    margin-top: 5px;
+    margin-top: 53px;
+    border-radius: 200px;
 }
 
 .btn-redes-sociais button{
@@ -194,6 +202,19 @@ section.repositorio {
     width: 100%;
     height: 100%;
 }
+
+.repositorio .row .col a{
+    text-decoration: none;
+}
+
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 100%;
+    gap: 20px !important;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 /* .. */
 /* .. */
@@ -245,4 +266,94 @@ section.colegas  {
     text-align: center;
     height: 100%;
     align-items: flex-end;
+}
+
+
+@media only screen and (max-device-width: 1244px){
+    .apresentation h1{
+        font-size: 43px;
+        line-height: 20px;
+    }
+}
+
+
+@media only screen and (max-device-width: 1244px){
+    .apresentation h1{
+        font-size: 35px;
+        line-height: 20px;
+    }
+}
+
+
+@media only screen and (max-device-width: 1096px){
+    .apresentation h1{
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .apresentation .txt-apresentacao p{
+        margin: 40px 0;
+        text-align: justify;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-device-width: 990px){
+    section.apresentation .flex{
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        flex-direction: column;
+    }
+
+    .apresentation .imagem-topo .fundo{
+        border: 0px;
+        width: 300px;
+        height: 400px;
+        background: var(--azul-claro);
+        /* position: absolute; */
+        z-index: 0;
+        border-radius: 50px 10px 90px 30px;
+        margin-right: 100px;
+        margin-top: 100px;
+        background-image: linear-gradient(to bottom, var(--azul-claro), var(--azul-medio));
+    }
+
+    .imagem-topo figure.fundo .foto_pessoal img{
+        margin-left: 75px;
+        margin-top: 53px;
+        border-radius: 200px;
+    }
+}
+
+
+@media only screen and (max-device-width: 436px){
+    .imagem-topo figure.fundo .foto_pessoal img{
+        margin-left: 36px;
+        margin-top: 25px;
+        width: 240px;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
+        gap: 20px !important;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+    .apresentation .imagem-topo .fundo{
+        border: 0px;
+        width: 300px;
+        height: 400px;
+        background: var(--azul-claro);
+        /* position: absolute; */
+        z-index: 0;
+        border-radius: 50px 10px 90px 30px;
+        margin-right: 7px;
+        margin-top: 100px;
+        background-image: linear-gradient(to bottom, var(--azul-claro), var(--azul-medio));
+    }
+
 }
