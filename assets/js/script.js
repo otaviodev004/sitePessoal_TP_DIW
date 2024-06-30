@@ -21,7 +21,7 @@ function getAPIGitHub(){
                     <div class="card-body">
                         <h5 class="card-title">${item.name}</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="repositorio.html" class="btn btn-primary">Ir Para Repositorio</a>
                     </div>
                     </div>
                 </div>
